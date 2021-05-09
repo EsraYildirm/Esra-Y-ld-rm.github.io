@@ -1,12 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  Esra yıldırım  M
-</body>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="özgeçmiş.css">
+
+        <title>ÖZGEÇMİŞ</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">ESRA YILDIRIM</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#anasayfa" class="nav__link active">Anasayfa</a></li>
+                        <li class="nav__item"><a href="#hakkımda" class="nav__link">Hakkımda</a></li>
+                        <li class="nav__item"><a href="#ilgi" class="nav__link">İlgi Alanları</a></li>
+                        <li class="nav__item"><a href="#egitim" class="nav__link">Eğitim</a></li>
+                        <li class="nav__item"><a href="#iletisim" class="nav__link">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== anasayfa =====-->
+            <section class="anasayfa" id="anasayfa">
+                <div class="anasayfa__container bd-grid">
+                    <h1 class="anasayfa__title"><span>HOŞ</span><br>GELDİNİZ :)</h1>
+                </div>
+            </section>
+            
+            <!--===== hakkımda =====-->
+            <section class="about section" id="hakkımda">
+                <h2 class="section-title">Hakkımda</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about">
+                        <img src="ben.png" width="320" height="320"  style="border-radius: 50px 20px 50px 20px;"alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">Esra Yıldırım</h2>
+                        <span class="about__profession">Bilgisayar Mühendisliği Öğrencisi</span>
+                        <p class="about__text">Bilgisayar mühendisiliği 1. sınıf öğrencisiyim web tasarımı alanında kendimi geliştirmek 
+                            istiyorum. Mesleki kariyerimde ilerlemek istiyorum ve bu konuda eğitim ve sertifikasyon 
+                            programlarına katılmaktayım.Öğrenmeye ve araştırmaya meraklı ve hevesli biriyim zaman idaresi ve ekip çalışmaları konusunda
+                             kendime son derece güveniyorum.
+
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ilgi alanları =====-->
+            <section class="ilgi section" id="ilgi">
+                <h2 class="section-title">İlgi Alanları</h2>
+
+                <div class="ilgi__container bd-grid">
+                    <div class="ilgi__box">
+                        <h3 class="ilgi__subtitle">Kendimi Geliştirmek İstediğim Alanlar</h3>
+                        <span class="ilgi__name">Html</span>
+                        <span class="ilgi__name">Css</span>
+                        <span class="ilgi__name">Javascript</span>
+                        <span class="ilgi__name">Php</span>
+                        <span class="ilgi__name">Paython</span>
+                        <span class="ilgi__name">java</span>
+                     </div>
+                </div>
+            </section>
+
+            <!--===== eğitim =====-->
+            <section class="egitim section" id="egitim">
+                <h2 class="section-title">Eğitim</h2>
+
+                <div class="ilgi__container bd-grid">
+                    <div class="ilgi__box">
+                        <h3 class="ilgi__subtitle">2004-2007 / LİSE</h3>
+                        <span class="ilgi__name">Elazığ Doğa Koleji</span>
+        
+                        <h3 class="ilgi__subtitle">2008-2010 / ÜNİVERSİTE</h3>
+                        <span class="ilgi__name">Fırat Üniversitesi Fen-Edabiyat Kimya</span>
+                        
+                        <h3 class="ilgi__subtitle">2010-2016 / ÜNİVERSİTE</h3>
+                        <span class="ilgi__name">Ankara Üniversitesi Ziraat Mühendisliği</span>
+                        
+                        <h3 class="ilgi__subtitle">2016-2018 / ÜNİVERSİTE</h3>
+                        <span class="ilgi__name">Eskişehir Anadolu Üniversitesi Adalet</span>
+                        
+                        <h3 class="ilgi__subtitle">2020-.... / ÜNİVERSİTE</h3>
+                        <span class="ilgi__name">Muş Alparslan Üniversitesi Bilgisayar Mühendisliği</span>
+                    </div>
+                </div>
+            </section>
+               
+            <!--===== iletişim =====-->
+            <section class="contact section" id="iletisim">
+                <h2 class="section-title">İletişim</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">esrayildirim...@gmail.com</span>
+
+                        <h3 class="contact__subtitle">Telefon</h3>
+                        <span class="contact__text">0507 334 .. ..</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">.......Elazığ</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="İsim Soyisim" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="GÖNDER" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== alt bilgi =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">ESRA YILDIRIM</h2>
+                    <p class="footer__text">Ben Esra Yıldırım Kişisel Web Sayfam</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">KEŞFET</h2>
+                    <ul>
+                        <li><a href="#anasayfa" class="footer__link">Anasayfa</a></li>
+                        <li><a href="#hakkımda" class="footer__link">Hakkımda</a></li>
+                        <li><a href="#ilgialanı" class="footer__link">İlgi Alanları</a></li>
+                        <li><a href="#egitim" class="footer__link">Eğitim</a></li>
+                        <li><a href="#iletisim" class="footer__link">İletişim</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">TAKİP ET</h2>
+                    <ul>
+                        <li><a href="https://fb.com " class="footer__link">facebook</a></li>
+                        <li><a href="https://twitter.com " class="footer__link">twitter</a></li>
+                        <li><a href="https://instagram.com" class="footer__link">instagram</a></li> 
+                    </ul>
+                </div>
+        
+
+        </footer>
+           <script src="cv.js"></script>
+    </body>
 </html>
